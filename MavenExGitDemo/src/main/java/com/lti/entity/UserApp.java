@@ -8,6 +8,9 @@ public class UserApp {
 		
 		Calculator c = new Calculator();
 		System.out.println(c.add(10, 20));
+		
+		ClientApp cl = new ClientApp();
+		cl.runClient();
 
 	}
 
